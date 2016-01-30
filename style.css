@@ -57,15 +57,26 @@ body {
     overflow: auto;
 }
 
+.content h1 {
+    color: #ff5722;
+}
+
+.content h2 {
+    color: #ff9800;
+}
+
 .content .home .banner {
     text-align: center;
     box-sizing: border-box;
     padding: 1em 6em 2em 6em;
-    color: #ffffff;
     background-color: #009688;
 }
 
-.content .home .banner p{
+.content .home .banner h1 {
+    color: #ffffff;
+}
+
+.content .home .banner p {
     text-align: center;
     font-weight: 400;
 }
@@ -80,5 +91,6 @@ body {
 }
 
 .content p {
+    font-size: 1.1em;
     text-align: justify;
 }
