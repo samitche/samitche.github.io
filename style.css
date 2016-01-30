@@ -1,0 +1,79 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.menu {
+    height: 4em;
+    border-bottom: 1em solid #009688;
+    padding: 2em 3em;
+    font-size: 1.2em;
+}
+
+.menu .left {
+    float: left;
+    font-size: 1.6em;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu .left ol {
+    margin: .2em 0 0 0;
+}
+
+.menu .right {
+    float: right;
+}
+
+.menu ol {
+    list-style: none;
+}
+
+.menu ol li {
+    display: inline-block;
+    padding: 0 1em;
+    /*background-color: lime;*/
+}
+
+.menu a,
+.menu a:link,
+.menu a:visited,
+.menu a:active {
+    color: #000000; /*color of your choosing*/
+    text-decoration: none;
+    font-weight: normal;
+    outline: 0;
+    border: 0;
+}
+
+.menu a:hover {
+    color: #bbb; /*color of your choosing*/
+}
+
+.content {
+    position: absolute;
+    top: 10.8em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.content .home .banner {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3% 6%;
+    color: #ffffff;
+    background-color: #009688;
+}
+
+.content .home .banner .avatar {
+    border: .5em solid #26a69a;
+    border-radius: 100px;
+}
+
+.content .section {
+    padding: 2em 4em;
+}
+
+p {
+    text-align: justify;
+}
