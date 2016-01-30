@@ -94,3 +94,40 @@ body {
     font-size: 1.1em;
     text-align: justify;
 }
+
+@media only screen and (max-device-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .content .home .banner h1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 3em;
+        border-bottom: 1em solid #009688;
+        padding: 1em 0;
+    }
+
+    .menu .left {
+        font-size: 2em;
+    }
+
+    .content {
+        top: 7.2em;
+    }
+
+    .menu .right {
+        display: none;
+    }
+
+    .content .section {
+        padding: 2em 2em;
+    }
+
+    .content .home .banner {
+        padding: .5em .5em 2em .5em;
+    }
+
+}
