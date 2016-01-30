@@ -23,6 +23,51 @@ body {
     float: right;
 }
 
+.menu .inline-menu {
+    display: none;
+    position: absolute;
+    font-size: 1.6em;
+    top: 1em;
+    right: 1em;
+
+}
+
+.inline-menu.menu-content.expanded {
+    height: 14em;
+    border-bottom: 1em solid #009688;
+}
+
+.inline-menu.menu-content {
+    position: absolute;
+    top: 7.2em;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #3f51b5;
+    border-bottom: 0;
+    height: 0;
+    transition: all ease .5s;
+    overflow: hidden;
+}
+
+.inline-menu.menu-content ol {
+    list-style: none;
+    text-align: center;
+    padding:0;
+}
+
+.inline-menu.menu-content a,
+.inline-menu.menu-content a:link,
+.inline-menu.menu-content a:visited,
+.inline-menu.menu-content a:active {
+    font-size: 2.4em;
+    color: white; /*color of your choosing*/
+    text-decoration: none;
+    font-weight: normal;
+    outline: 0;
+    border: 0;
+}
+
 .menu ol {
     list-style: none;
 }
@@ -98,6 +143,10 @@ body {
 @media only screen and (max-device-width: 768px) {
     body {
         font-size: 12px;
+    }
+
+    .menu .inline-menu {
+        display: block;
     }
 
     .content .home .banner h1 {
