@@ -60,9 +60,14 @@ body {
 .content .home .banner {
     text-align: center;
     box-sizing: border-box;
-    padding: 3% 6%;
+    padding: 1em 6em 2em 6em;
     color: #ffffff;
     background-color: #009688;
+}
+
+.content .home .banner p{
+    text-align: center;
+    font-weight: 400;
 }
 
 .content .home .banner .avatar {
@@ -74,6 +79,6 @@ body {
     padding: 2em 4em;
 }
 
-p {
+.content p {
     text-align: justify;
 }
