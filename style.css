@@ -130,4 +130,7 @@ body {
         padding: .5em .5em 2em .5em;
     }
 
+    .content p {
+        font-size: 1.2em;
+    }
 }
