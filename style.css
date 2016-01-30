@@ -34,7 +34,7 @@ body {
 
 .inline-menu.menu-content.expanded {
     height: 14em;
-    border-bottom: 1em solid #009688;
+    border-bottom: 1.2em solid #009688;
 }
 
 .inline-menu.menu-content {
