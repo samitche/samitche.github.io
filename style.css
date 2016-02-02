@@ -13,6 +13,7 @@ body {
     float: left;
     font-size: 1.6em;
     font-family: 'Pacifico', cursive;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .menu .left ol {
