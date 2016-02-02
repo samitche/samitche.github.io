@@ -43,7 +43,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: #3f51b5;
+    background-color: #aa6639;
     border-bottom: 0;
     height: 0;
     transition: all ease .5s;
@@ -103,11 +103,11 @@ body {
 }
 
 .content h1 {
-    color: #ff5722;
+    color: #142e54;
 }
 
 .content h2 {
-    color: #ff9800;
+    color: #803f15;
 }
 
 .content .home .banner {
@@ -127,7 +127,7 @@ body {
 }
 
 .content .home .banner .avatar {
-    border: .5em solid #26a69a;
+    border: .5em solid #4c668c;
     border-radius: 100px;
 }
 
