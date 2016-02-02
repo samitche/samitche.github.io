@@ -43,7 +43,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: #aa6639;
+    background-color: #30796d;
     border-bottom: 0;
     height: 0;
     transition: all ease .5s;
@@ -103,11 +103,11 @@ body {
 }
 
 .content h1 {
-    color: #d46748;
+    color: #203865;
 }
 
 .content h2 {
-    color: #ed8061;
+    color: #3a527f;
 }
 
 .content .home .banner {
