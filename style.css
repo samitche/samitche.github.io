@@ -4,7 +4,7 @@ body {
 
 .menu {
     height: 4em;
-    border-bottom: 1em solid #2c4770;
+    border-bottom: 1em solid #346179;
     padding: 2em 3em;
     font-size: 1.2em;
 }
@@ -103,11 +103,11 @@ body {
 }
 
 .content h1 {
-    color: #142e54;
+    color: #1b4860;
 }
 
 .content h2 {
-    color: #803f15;
+    color: #e89982;
 }
 
 .content .home .banner {
@@ -127,7 +127,7 @@ body {
 }
 
 .content .home .banner .avatar {
-    border: .5em solid #4c668c;
+    border: .5em solid #567e93;
     border-radius: 100px;
 }
 
