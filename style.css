@@ -13,7 +13,6 @@ body {
     float: left;
     font-size: 1.6em;
     font-family: 'Pacifico', cursive;
-    -webkit-user-select: none;
 }
 
 .menu .left ol {
