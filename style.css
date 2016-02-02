@@ -4,7 +4,7 @@ body {
 
 .menu {
     height: 4em;
-    border-bottom: 1em solid #346179;
+    border-bottom: 1em solid #009688;
     padding: 2em 3em;
     font-size: 1.2em;
 }
@@ -34,7 +34,7 @@ body {
 
 .inline-menu.menu-content.expanded {
     height: 14em;
-    border-bottom: 1.2em solid #346179;
+    border-bottom: 1.2em solid #009688;
 }
 
 .inline-menu.menu-content {
@@ -43,7 +43,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: #529388;
+    background-color: #3f51b5;
     border-bottom: 0;
     height: 0;
     transition: all ease .5s;
@@ -103,18 +103,18 @@ body {
 }
 
 .content h1 {
-    color: #30796d;
+    color: #ff5722;
 }
 
 .content h2 {
-    color: #529388;
+    color: #ff9800;
 }
 
 .content .home .banner {
     text-align: center;
     box-sizing: border-box;
     padding: 1em 6em 2em 6em;
-    background-color: #346179;
+    background-color: #009688;
 }
 
 .content .home .banner h1 {
@@ -127,7 +127,7 @@ body {
 }
 
 .content .home .banner .avatar {
-    border: .5em solid #567e93;
+    border: .5em solid #26a69a;
     border-radius: 100px;
 }
 
@@ -155,7 +155,7 @@ body {
 
     .menu {
         height: 3em;
-        border-bottom: 1em solid #346179;
+        border-bottom: 1em solid #009688;
         padding: 1em 0;
     }
 
