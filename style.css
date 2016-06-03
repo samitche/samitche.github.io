@@ -196,6 +196,10 @@ body {
     }
 }
 
+table {
+    width:100%;    
+}
+
 tr {
     background-color: #f0f0f0;
 }
