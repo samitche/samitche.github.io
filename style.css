@@ -195,3 +195,9 @@ body {
         font-size: 1.2em;
     }
 }
+
+
+
+td {
+    padding: .5em;
+}
