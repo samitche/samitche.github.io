@@ -213,6 +213,7 @@ td {
 }
 
 th {
-    background-color: #009688;
     padding: 1em;
+    color: white;
+    background-color: #009688;
 }
